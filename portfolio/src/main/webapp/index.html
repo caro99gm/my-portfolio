@@ -1,129 +1,171 @@
 <!DOCTYPE html>
-    <html lang = "en">
-        <head>
-            <title>My Portfolio</title>
-            <link rel = "stylesheet" href = "style.css">
-            <script src = "script.js"></script>
-            <meta charset = "UTF-8">
-            <meta name = "viewport" content = "width=device-width, initial-scale=1">
-        </head>
+<html lang = "en">
+  <head>
+      <title>My Portfolio</title>
+      <link rel = "stylesheet" href = "style.css">
+      <script src = "script.js"></script>
+      <meta charset = "UTF-8">
+      <meta name = "viewport" content = "width=device-width, initial-scale=1">
+  </head>
 
-        <body>
+  <body>
+      <main>
+        <section id = "header">
+          <img src = "images/intro.jpeg">
+            <div class = "container">
+              <h1>CAROLINA GÓMEZ MANZANO</h1>
+              <div class = "link"><a href = "https://www.linkedin.com/in/carolina-gomez-manzano/"> 
+                linkedin</a>
+                <a href = "https://github.com/caro99gm"> Github</a>
+              </div>
+              <h2>Click here to get a random message:</h2>
+              <div class = "button"><button onclick = "addRandomFact()">
+                Random Fact</button></div>
+              <div id = "fact-container">
+              </div>
+              </div>
+        </section>
 
-            <main>
-                <section id = "header">
-                    <img src = "images/intro.jpeg">
-                    <div class = "container">
-                        <h1>CAROLINA GÓMEZ MANZANO</h1>
-                        <a href = "https://www.linkedin.com/in/carolina-gomez-manzano/"> linkedin</a>
-                        <a href = "https://github.com/caro99gm"> Github</a>
-                        <h2>Click here to get a random message:</h2>
-                        <button onclick = "addRandomFact()">Random Fact</button>
-                        <div id = "fact-container">
-                        </div>
-                    </div>
-                </section>
+        <section id = "intro">
+          <h2>About me</h2>
+          <p>Hi! I'm a second year student of Computer Science in Instituto 
+              Tecnologico y de Estudios Superiores de Monterrey. I'm from 
+              Mexico, more precisely from Guadalajara but I'm studying 
+              in Monterrey city.</p>
+          <h3>A little bit of my background in CS...</h3>
+          <p>I decided to study CS since I was in High School, one of my 
+              biggest influences on this decision were my parents because 
+              they are both computer scientists, so when I was little I always 
+              saw their job and I get interested in that. Due to this, since 
+              middle school, I started to get involved in CS area and also in 
+              some stuff of robotics.</p>
+          <h3>Hobbies</h3>
+          <p>I really enjoy spending time with my friends, also watching 
+              series and movies, I love animated and science fiction! but 
+              also the dramas when I'm in that mood... Besides, I enjoy arts, 
+              like painting or drawing but my favorite technique is with color 
+              pencils. As well I love music, I do not play any instrument and 
+              I do not have a favorite gender, the music I hear is depending 
+              on what I'm doing and my mood at that moment, so it can be very 
+              different.</p>
+          <h3>In more nerdy things...</h3>
+          <p>I love math! since I was in elementary school I get involved in 
+              Kumon (a math program) and my objective was always to end the 
+              program, so I did, but when that happened I just do not have 
+              another thing to dedicate so much time, so that I start working 
+              as an instructor in all levels.</p>
+          <p>Also, I love astronomy, actually, I'm not very involved, but 
+              getting to know more about it is one of my goals. Another thing 
+              that I enjoy a lot is coding, time just runs so fast! I'm 
+              looking to get deeper into the languages that I already know.</p>
+        </section>
 
-                <section id = "intro">
-                        <h2>About me</h2>
-                        <p>Hi! I'm a second year student of Computer Science in Instituto Tecnologico y de Estudios Superiores de Monterrey. I'm from Mexico, more precisely from Guadalajara but I'm studying in Monterrey city.</p>
-                        <h3>A little bit of my background in CS...</h3>
-                        <p>I decided to study CS since I was in High School, one of my biggest influences on this decision were my parents because they are both computer scientists, so when I was little I always saw their job and I get interested in that. Due to this, since middle school, I started to get involved in CS area and also in some stuff of robotics.</p>
-                        <h3>Hobbies</h3>
-                        <p>I really enjoy spending time with my friends, also watching series and movies, I love animated and science fiction! but also the dramas when I'm in that mood... Besides, I enjoy arts, like painting or drawing but my favorite technique is with color pencils. As well I love music, I do not play any instrument and I do not have a favorite gender, the music I hear is depending on what I'm doing and my mood at that moment, so it can be very different.</p>
-                        <h3>In more nerdy things...</h3>
-                        <p>I love math! since I was in elementary school I get involved in Kumon (a math program) and my objective was always to end the program, so I did, but when that happened I just do not have another thing to dedicate so much time, so that I start working as an instructor in all levels.</p>
-                        <p>Also, I love astronomy, actually, I'm not very involved, but getting to know more about it is one of my goals. Another thing that I enjoy a lot is coding, time just runs so fast! I'm looking to get deeper into the languages that I already know.</p>
-                </section>
+        <section id = "pictures">
+          <h2>These are just some pictures about things that I have done, 
+              competitions, awards, friends, random things</h2>
+            <div class = "container">
+              <article>
+                <img src = "images/team.jpeg" alt = "Robotics Team">
+                <h3>Mi FIRST FRC team</h3>
+              </article>
+              <article>
+                <img src = "images/family.jpeg" alt = "My family">
+                <h3>My family</h3>
+              </article>
+              <article>
+                <img src = "images/friends.jpeg" alt = "Friends">
+                <h3>Graduation with friends</h3>
+              </article>
+              <article>
+                <img src = "images/drawing.jpeg" alt = "Drawing">
+                <h3>A drawing (the idea is taken from the internet)</h3>
+              </article>
+              <article>
+                <img src = "images/First.jpeg" alt = "FIRST FRC">
+                <h3>Winning a competition!</h3>
+              </article>
+              <article>
+                <img src = "images/cat.jpeg" alt = "Cat">
+                <h3>My cat</h3>
+              </article>
+              <article>
+                <img src = "images/kumon.jpeg" alt = "Kumon">
+                <h3>Finally finishing the Kumon program</h3>
+              </article>
+              <article>
+                <img src = "images/winning.jpeg" alt = "Robotics team">
+                <h3>Robotics team in competition</h3>
+              </article>
+                </div>
+        </section>
 
-                <section id = "pictures">
-                    <h2>These are just some pictures about things that I have done, competitions, awards, friends, random things</h2>
-                    <div class = "container">
-                        <article>
-                            <img src = "images/team.jpeg">
-                            <h3>Mi FIRST FRC team</h3>
-                        </article>
-                        <article>
-                            <img src = "images/family.jpeg">
-                            <h3>My family</h3>
-                        </article>
-                        <article>
-                            <img src = "images/friends.jpeg">
-                            <h3>Graduation with friends</h3>
-                        </article>
-                        <article>
-                            <img src = "images/drawing.jpeg">
-                            <h3>A drawing (the idea is taken from the internet)</h3>
-                        </article>
-                        <article>
-                            <img src = "images/First.jpeg">
-                            <h3>Winning a competition!</h3>
-                        </article>
-                        <article>
-                            <img src = "images/cat.jpeg">
-                            <h3>My cat</h3>
-                        </article>
-                        <article>
-                            <img src = "images/kumon.jpeg">
-                            <h3>Finally finishing the Kumon program</h3>
-                        </article>
-                        <article>
-                            <img src = "images/winning.jpeg">
-                            <h3>Robotics team in competition</h3>
-                        </article>
-                    </div>
-                </section>
-
-                <section id ="experiences">
-                    <h2>Experiences</h2>
-                    <div class = "container">
-                        <article>
-                            <h3>Kumon Educational Mexico, Guadalajara, Jal.</h3>
-                            <h4>Work experience</h4>
-                            <h4>Math instructor</h4>
-                            <h5>January 2017 - September 2018</h5>
-                            <p>Kumon is a program dedicated to enrich students in the math area. I was the instructor and assistant of the students in the complete program, which are 26 different levels. </p>
-                        </article> 
-                        <article>
-                            <h3>Zero Robotics: MIT/NASA International Programming Competition</h3>
-                            <h5>July 2017 - January 2018</h5>
-                            <p>Worked in the coding team using C++ to create a code that control a virtual robot in order to complete missions. The team got 23th place worldwide, 2nd place in Global Mexico.</p>
-                        </article>
-                        <article>
-                            <h3>President of the robotics FIRST FRC school team StingBots</h3>
-                            <h5>August 2017 - May 2019</h5>
-                            <p>Start in the coding team creating the code in C++ to control the robot that go to the FIRST FRC Competition. </p>
-                            <p>Under my presidency the team won the 1st place on regional division that gives the opportunity to compete on the worldwide competition obtaining the 28th place.</p>
-                        </article> 
-                        <article>
-                            <h3>Community help group Pedro Ascencio – Leona Vicario</h3>
-                            <h5>August 2017 - present</h5>
-                            <p>Creation of a program which makes front to the lack of education problem in Mexico by teaching in a school for low-income students lesson of STEM in order to get them more involve in technology. We impacted 80 students at the first year, this program has continued each year.</p>
-                        </article>
-                        <article>
-                            <h3>Latin America vs COVID-19 MIT COVID-19 Challenge</h3>
-                            <h5>June 2020</h5>
-                            <p>Weekend hackathon in which I used Java to make the development of an App in order to detect early infection of COVID 19 by tracking users’ locations. </p>
-                        </article>
-                        <article>
-                            <h3>&#8249 Maratón /&#8250 Behind the Code IBM 2020</h3>
-                            <h5>August - September 2020</h5>
-                            <p>Used IBM Watson Technology to solve 8 challenges in 4 weeks, the challenges were about using AI to solve real life situations. </p>
-                        </article>
-                        <article>
-                            <h3>AI Gaming</h3>
-                            <h5>October 2021</h5>
-                            <p>Used Python and Azure to create a code that can play a memory game in which it used artificial intelligence in order to get the highest amount of points.</p>
-                        </article>
-                        <article>
-                            <h3>Beautiful Patterns Bootcamp</h3>
-                            <h5>January 2021</h5>
-                            <p>Instructor in the MIT program to empower women in engineering. Teach high school students python and computer science basics.</p>
-                        </article>
-                    </div>
-                </section>
-                
-            </main>
-        </body>
-
-    </html>
+        <section id ="experiences">
+          <h2>Experiences</h2>
+          <div class = "container">
+          <article>
+            <h3>Kumon Educational Mexico, Guadalajara, Jal.</h3>
+            <h4>Work experience</h4>
+            <h4>Math instructor</h4>
+            <h5>January 2017 - September 2018</h5>
+            <p>Kumon is a program dedicated to enrich students in the math 
+                area. I was the instructor and assistant of the students in 
+                the complete program, which are 26 different levels. </p>
+          </article> 
+          <article>
+            <h3>Zero Robotics: MIT/NASA International Programming Competition</h3>
+            <h5>July 2017 - January 2018</h5>
+            <p>Worked in the coding team using C++ to create a code that 
+                control a virtual robot in order to complete missions. The 
+                team got 23th place worldwide, 2nd place in Global Mexico.</p>
+          </article>
+          <article>
+            <h3>President of the robotics FIRST FRC school team StingBots</h3>
+            <h5>August 2017 - May 2019</h5>
+            <p>Start in the coding team creating the code in C++ to control 
+                the robot that go to the FIRST FRC Competition. </p>
+            <p>Under my presidency the team won the 1st place on regional 
+                division that gives the opportunity to compete on the 
+                worldwide competition obtaining the 28th place.</p>
+          </article> 
+          <article>
+            <h3>Community help group Pedro Ascencio – Leona Vicario</h3>
+            <h5>August 2017 - present</h5>
+            <p>Creation of a program which makes front to the lack of 
+                education problem in Mexico by teaching in a school for 
+                low-income students lesson of STEM in order to get them more 
+                involve in technology. We impacted 80 students at the first 
+                year, this program has continued each year.</p>
+          </article>
+          <article>
+            <h3>Latin America vs COVID-19 MIT COVID-19 Challenge</h3>
+            <h5>June 2020</h5>
+            <p>Weekend hackathon in which I used Java to make the development 
+                of an App in order to detect early infection of COVID 19 by 
+                tracking users’ locations. </p>
+          </article>
+          <article>
+            <h3>&#8249 Maratón /&#8250 Behind the Code IBM 2020</h3>
+            <h5>August - September 2020</h5>
+            <p>Used IBM Watson Technology to solve 8 challenges in 4 weeks, 
+                the challenges were about using AI to solve real life 
+                situations. </p>
+          </article>
+          <article>
+            <h3>AI Gaming</h3>
+            <h5>October 2021</h5>
+            <p>Used Python and Azure to create a code that can play a memory 
+                game in which it used artificial intelligence in order to get 
+                the highest amount of points.</p>
+          </article>
+          <article>
+            <h3>Beautiful Patterns Bootcamp</h3>
+            <h5>January 2021</h5>
+            <p>Instructor in the MIT program to empower women in engineering. 
+                Teach high school students python and computer science 
+                basics.</p>
+          </article>
+        </div>
+      </section>   
+    </main>
+  </body>  
+</html>
