@@ -51,6 +51,14 @@ body {
     text-align: center;
 }
 
+#header p{
+    background-color: rgba(255,255,255,0.7);
+    text-align: center;
+    justify-content: center;
+    color: black;
+    font-size: 30px;
+}
+
 .link{
     margin: auto;
     transform: translateX(40%);

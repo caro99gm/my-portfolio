@@ -4,6 +4,7 @@
       <title>My Portfolio</title>
       <link rel = "stylesheet" href = "style.css">
       <script src = "script.js"></script>
+      <script src = "myFetch.js"></script>
       <meta charset = "UTF-8">
       <meta name = "viewport" content = "width=device-width, initial-scale=1">
   </head>
@@ -19,11 +20,13 @@
                 <a href = "https://github.com/caro99gm"> Github</a>
               </div>
               <h2>Click here to get a random message:</h2>
-              <div class = "button"><button onclick = "addRandomFact()">
+              <div class = "button"><button onclick = "addRandomFact();">
                 Random Fact</button></div>
-              <div id = "fact-container">
-              </div>
-              </div>
+              <p id = "fact-container"></p>
+              <br>
+              <div class = "button"><button onclick = "showWelcome();">Welcome!</button></div>
+              <p id = "hello-container"></p>
+              <p>Click <a href = "/welcome">here</a> to see the response</p>
         </section>
 
         <section id = "intro">
