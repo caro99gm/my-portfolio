@@ -1,0 +1,585 @@
+[33mcommit 14798cd027677cf232fd8abcbdf466dca459cbc2[m[33m ([m[1;36mHEAD -> [m[1;32mCarolinaDevelopment[m[33m, [m[1;31morigin/CarolinaDevelopment[m[33m)[m
+Author: Carolina <caro99gm@gmail.com>
+Date:   Fri Feb 26 19:01:31 2021 +0000
+
+    Upload portfolio
+
+[33mcommit 342e3bbdb0c2b84aa71569d2b2cf99f62be1f3ea[m
+Author: Carolina <caro99gm@gmail.com>
+Date:   Thu Feb 18 04:36:12 2021 +0000
+
+    Update the README.md file to describe the repo.
+
+[33mcommit bc2973b39a8fae5258e171f852a0f0a520cc3d71[m[33m ([m[1;31morigin/main[m[33m, [m[1;32mmain[m[33m)[m
+Author: Kevin Workman <kevinaworkman@gmail.com>
+Date:   Mon Feb 8 15:43:16 2021 -0800
+
+    Add instructions for enabling App Engine for service accounts.
+
+[33mcommit 8e79ee7706da5792ce6805f3fb1e3851dfea9f53[m
+Author: Kevin Workman <kevinaworkman@gmail.com>
+Date:   Wed Feb 3 16:28:52 2021 -0800
+
+    Update instructions for creating a pull request.
+
+[33mcommit 6245127cf4b17aa8f9504a81dd62c373c256b1e7[m
+Author: Kevin Workman <kevinaworkman@gmail.com>
+Date:   Mon Feb 1 17:18:58 2021 -0800
+
+    Include instructions for making the storage bucket public.
+
+[33mcommit f6cf18ce6742a7aee3323d1c0c635bdc61dee85a[m
+Author: Kevin Workman <kevinaworkman@gmail.com>
+Date:   Mon Feb 1 16:40:01 2021 -0800
+
+    Update the artifactId of the Cloud Storage example.
+
+[33mcommit 623266033837e7c5d3601390d1f570bd5ba54048[m
+Merge: 1a2913e 5c455cf
+Author: Kevin Workman <kevinaworkman@gmail.com>
+Date:   Mon Jan 25 15:40:46 2021 -0800
+
+    Merge branch 'main' of https://github.com/google/software-product-sprint
+
+[33mcommit 1a2913e3bcba6a7a491617a9d00e17b13fa6d35b[m
+Author: Kevin Workman <kevinaworkman@gmail.com>
+Date:   Mon Jan 25 15:39:54 2021 -0800
+
+    Add instructions for creating an App Engine application.
+
+[33mcommit 5c455cfe977f666bee901967bc0b6f88949724c7[m
+Merge: aa31532 e9acc36
+Author: Kevin Workman <kevinaworkman@gmail.com>
+Date:   Fri Jan 22 12:11:37 2021 -0800
+
+    Merge pull request #71 from google/dependabot/maven/walkthroughs/week-3-libraries/maps/examples/marker/jetty.version-11.0.0
+    
+    Bump jetty.version from 9.4.31.v20200723 to 11.0.0 in /walkthroughs/week-3-libraries/maps/examples/marker
+
+[33mcommit aa3153298dd1a0de1a961ef12d1008365be54531[m
+Merge: 8441030 60f23e6
+Author: Kevin Workman <kevinaworkman@gmail.com>
+Date:   Fri Jan 22 12:11:18 2021 -0800
+
+    Merge pull request #72 from google/dependabot/maven/walkthroughs/week-3-libraries/datastore/examples/todo-list/jetty.version-11.0.0
+    
+    Bump jetty.version from 9.4.31.v20200723 to 11.0.0 in /walkthroughs/week-3-libraries/datastore/examples/todo-list
+
+[33mcommit 8441030b9c26a649ef9c16bfbb5f577584158454[m
+Merge: 3612981 66ae9f1
+Author: Kevin Workman <kevinaworkman@gmail.com>
+Date:   Fri Jan 22 12:11:00 2021 -0800
+
+    Merge pull request #73 from google/dependabot/maven/walkthroughs/week-3-libraries/maps/examples/ufos/jetty.version-11.0.0
+    
+    Bump jetty.version from 9.4.31.v20200723 to 11.0.0 in /walkthroughs/week-3-libraries/maps/examples/ufos
+
+[33mcommit 3612981c686e481b62b3a9fd94fb743b9e1b0e8a[m
+Merge: 486c775 62835d6
+Author: Kevin Workman <kevinaworkman@gmail.com>
+Date:   Fri Jan 22 12:09:44 2021 -0800
+
+    Merge pull request #74 from google/dependabot/maven/walkthroughs/week-3-libraries/image-analysis/examples/image-analyzer/jetty.version-11.0.0
+    
+    Bump jetty.version from 9.4.31.v20200723 to 11.0.0 in /walkthroughs/week-3-libraries/image-analysis/examples/image-analyzer
+
+[33mcommit 486c775909cff8f44f1e48f0b1bdfb4eb5d20279[m
+Merge: 9e9f344 dc42e1f
+Author: Kevin Workman <kevinaworkman@gmail.com>
+Date:   Fri Jan 22 12:09:23 2021 -0800
+
+    Merge pull request #70 from google/dependabot/maven/walkthroughs/week-3-libraries/maps/examples/info-window/jetty.version-11.0.0
+    
+    Bump jetty.version from 9.4.31.v20200723 to 11.0.0 in /walkthroughs/week-3-libraries/maps/examples/info-window
+
+[33mcommit 9e9f3447e057ba5a65f591729da202be91d3af9a[m
+Merge: ee6313b 090bb26
+Author: Kevin Workman <kevinaworkman@gmail.com>
+Date:   Fri Jan 22 12:09:03 2021 -0800
+
+    Merge pull request #75 from google/dependabot/maven/walkthroughs/week-3-libraries/maps/examples/marker-storage/jetty.version-11.0.0
+    
+    Bump jetty.version from 9.4.31.v20200723 to 11.0.0 in /walkthroughs/week-3-libraries/maps/examples/marker-storage
+
+[33mcommit ee6313be617dfece60827d124cbd9216fa575a32[m
+Merge: d4b890d 3f8aaba
+Author: Kevin Workman <kevinaworkman@gmail.com>
+Date:   Fri Jan 22 12:08:44 2021 -0800
+
+    Merge pull request #76 from google/dependabot/maven/walkthroughs/week-3-libraries/maps/examples/hello-world/jetty.version-11.0.0
+    
+    Bump jetty.version from 9.4.31.v20200723 to 11.0.0 in /walkthroughs/week-3-libraries/maps/examples/hello-world
+
+[33mcommit d4b890dcc7cffa735a8121dbeeea384a813de94f[m
+Merge: 5fd4053 3769c6c
+Author: Kevin Workman <kevinaworkman@gmail.com>
+Date:   Fri Jan 22 12:08:18 2021 -0800
+
+    Merge pull request #89 from google/dependabot/maven/portfolio/jetty.version-11.0.0
+    
+    Bump jetty.version from 9.4.31.v20200723 to 11.0.0 in /portfolio
+
+[33mcommit 5fd40531150e6de503c635e4f4de540c5e4970b9[m
+Merge: 83132d6 bec7631
+Author: Kevin Workman <kevinaworkman@gmail.com>
+Date:   Fri Jan 22 12:00:50 2021 -0800
+
+    Merge pull request #87 from google/dependabot/maven/walkthroughs/week-2-server/examples/form-submission/jetty.version-11.0.0
+    
+    Bump jetty.version from 9.4.31.v20200723 to 11.0.0 in /walkthroughs/week-2-server/examples/form-submission
+
+[33mcommit 3769c6c7e02975e87813cb04a66515a8a82da58e[m
+Author: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>
+Date:   Fri Jan 22 20:00:42 2021 +0000
+
+    Bump jetty.version from 9.4.31.v20200723 to 11.0.0 in /portfolio
+    
+    Bumps `jetty.version` from 9.4.31.v20200723 to 11.0.0.
+    
+    Updates `jetty-server` from 9.4.31.v20200723 to 11.0.0
+    - [Release notes](https://github.com/eclipse/jetty.project/releases)
+    - [Commits](https://github.com/eclipse/jetty.project/compare/jetty-9.4.31.v20200723...jetty-11.0.0)
+    
+    Updates `jetty-annotations` from 9.4.31.v20200723 to 11.0.0
+    - [Release notes](https://github.com/eclipse/jetty.project/releases)
+    - [Commits](https://github.com/eclipse/jetty.project/compare/jetty-9.4.31.v20200723...jetty-11.0.0)
+    
+    Signed-off-by: dependabot[bot] <support@github.com>
+
+[33mcommit 83132d6f01e928e9c13cdb0fd910b7fad9420acc[m
+Merge: 5426bc8 2fa14c3
+Author: Kevin Workman <kevinaworkman@gmail.com>
+Date:   Fri Jan 22 12:00:26 2021 -0800
+
+    Merge pull request #88 from google/dependabot/maven/walkthroughs/week-1-web-development/examples/stanley/jetty.version-11.0.0
+    
+    Bump jetty.version from 9.4.31.v20200723 to 11.0.0 in /walkthroughs/week-1-web-development/examples/stanley
+
+[33mcommit 2fa14c3fc9bb47627be0eefadf3f08725e808aa5[m
+Author: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>
+Date:   Fri Jan 22 20:00:12 2021 +0000
+
+    Bump jetty.version
+    
+    Bumps `jetty.version` from 9.4.31.v20200723 to 11.0.0.
+    
+    Updates `jetty-server` from 9.4.31.v20200723 to 11.0.0
+    - [Release notes](https://github.com/eclipse/jetty.project/releases)
+    - [Commits](https://github.com/eclipse/jetty.project/compare/jetty-9.4.31.v20200723...jetty-11.0.0)
+    
+    Updates `jetty-annotations` from 9.4.31.v20200723 to 11.0.0
+    - [Release notes](https://github.com/eclipse/jetty.project/releases)
+    - [Commits](https://github.com/eclipse/jetty.project/compare/jetty-9.4.31.v20200723...jetty-11.0.0)
+    
+    Signed-off-by: dependabot[bot] <support@github.com>
+
+[33mcommit 5426bc8403039d0be53ecf6d0503f8b2dcda7161[m
+Merge: 7ab111f eda0846
+Author: Kevin Workman <kevinaworkman@gmail.com>
+Date:   Fri Jan 22 12:00:09 2021 -0800
+
+    Merge pull request #86 from google/dependabot/maven/walkthroughs/week-2-server/examples/page-view-counter/jetty.version-11.0.0
+    
+    Bump jetty.version from 9.4.31.v20200723 to 11.0.0 in /walkthroughs/week-2-server/examples/page-view-counter
+
+[33mcommit bec7631e92b902664b9525377d641d0757b2d38a[m
+Author: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>
+Date:   Fri Jan 22 19:59:42 2021 +0000
+
+    Bump jetty.version
+    
+    Bumps `jetty.version` from 9.4.31.v20200723 to 11.0.0.
+    
+    Updates `jetty-server` from 9.4.31.v20200723 to 11.0.0
+    - [Release notes](https://github.com/eclipse/jetty.project/releases)
+    - [Commits](https://github.com/eclipse/jetty.project/compare/jetty-9.4.31.v20200723...jetty-11.0.0)
+    
+    Updates `jetty-annotations` from 9.4.31.v20200723 to 11.0.0
+    - [Release notes](https://github.com/eclipse/jetty.project/releases)
+    - [Commits](https://github.com/eclipse/jetty.project/compare/jetty-9.4.31.v20200723...jetty-11.0.0)
+    
+    Signed-off-by: dependabot[bot] <support@github.com>
+
+[33mcommit 7ab111f569269fe0750f732ca7504d6ef2cc25a9[m
+Merge: 68b3bc0 460b57b
+Author: Kevin Workman <kevinaworkman@gmail.com>
+Date:   Fri Jan 22 11:59:32 2021 -0800
+
+    Merge pull request #84 from google/dependabot/maven/walkthroughs/week-2-server/examples/server-stats/jetty.version-11.0.0
+    
+    Bump jetty.version from 9.4.31.v20200723 to 11.0.0 in /walkthroughs/week-2-server/examples/server-stats
+
+[33mcommit eda0846fa332761ea56ca4da0939fbfb857318c0[m
+Author: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>
+Date:   Fri Jan 22 19:59:17 2021 +0000
+
+    Bump jetty.version
+    
+    Bumps `jetty.version` from 9.4.31.v20200723 to 11.0.0.
+    
+    Updates `jetty-server` from 9.4.31.v20200723 to 11.0.0
+    - [Release notes](https://github.com/eclipse/jetty.project/releases)
+    - [Commits](https://github.com/eclipse/jetty.project/compare/jetty-9.4.31.v20200723...jetty-11.0.0)
+    
+    Updates `jetty-annotations` from 9.4.31.v20200723 to 11.0.0
+    - [Release notes](https://github.com/eclipse/jetty.project/releases)
+    - [Commits](https://github.com/eclipse/jetty.project/compare/jetty-9.4.31.v20200723...jetty-11.0.0)
+    
+    Signed-off-by: dependabot[bot] <support@github.com>
+
+[33mcommit 68b3bc0a676279359462a0d063cd3582c05ebefd[m
+Merge: 57d9b3c 38099d4
+Author: Kevin Workman <kevinaworkman@gmail.com>
+Date:   Fri Jan 22 11:59:13 2021 -0800
+
+    Merge pull request #85 from google/dependabot/maven/walkthroughs/week-2-server/examples/server-date/jetty.version-11.0.0
+    
+    Bump jetty.version from 9.4.31.v20200723 to 11.0.0 in /walkthroughs/week-2-server/examples/server-date
+
+[33mcommit 57d9b3c8f03e38f19a4f9db909b7ddbcb972dfef[m
+Merge: 235d460 52c92b1
+Author: Kevin Workman <kevinaworkman@gmail.com>
+Date:   Fri Jan 22 11:58:45 2021 -0800
+
+    Merge pull request #82 from google/dependabot/maven/walkthroughs/week-3-libraries/charts/examples/favorite-colors/jetty.version-11.0.0
+    
+    Bump jetty.version from 9.4.31.v20200723 to 11.0.0 in /walkthroughs/week-3-libraries/charts/examples/favorite-colors
+
+[33mcommit 38099d47f2c18e88c2a69428c4ff85d61d3a3275[m
+Author: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>
+Date:   Fri Jan 22 19:58:35 2021 +0000
+
+    Bump jetty.version in /walkthroughs/week-2-server/examples/server-date
+    
+    Bumps `jetty.version` from 9.4.31.v20200723 to 11.0.0.
+    
+    Updates `jetty-server` from 9.4.31.v20200723 to 11.0.0
+    - [Release notes](https://github.com/eclipse/jetty.project/releases)
+    - [Commits](https://github.com/eclipse/jetty.project/compare/jetty-9.4.31.v20200723...jetty-11.0.0)
+    
+    Updates `jetty-annotations` from 9.4.31.v20200723 to 11.0.0
+    - [Release notes](https://github.com/eclipse/jetty.project/releases)
+    - [Commits](https://github.com/eclipse/jetty.project/compare/jetty-9.4.31.v20200723...jetty-11.0.0)
+    
+    Signed-off-by: dependabot[bot] <support@github.com>
+
+[33mcommit 460b57b00710b6f6c6783f51fef94587ae08f3b4[m
+Author: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>
+Date:   Fri Jan 22 19:58:26 2021 +0000
+
+    Bump jetty.version in /walkthroughs/week-2-server/examples/server-stats
+    
+    Bumps `jetty.version` from 9.4.31.v20200723 to 11.0.0.
+    
+    Updates `jetty-server` from 9.4.31.v20200723 to 11.0.0
+    - [Release notes](https://github.com/eclipse/jetty.project/releases)
+    - [Commits](https://github.com/eclipse/jetty.project/compare/jetty-9.4.31.v20200723...jetty-11.0.0)
+    
+    Updates `jetty-annotations` from 9.4.31.v20200723 to 11.0.0
+    - [Release notes](https://github.com/eclipse/jetty.project/releases)
+    - [Commits](https://github.com/eclipse/jetty.project/compare/jetty-9.4.31.v20200723...jetty-11.0.0)
+    
+    Signed-off-by: dependabot[bot] <support@github.com>
+
+[33mcommit 235d4602fb13bf0410fc213bf5805f9834fcdc66[m
+Merge: d3cea5c 4580dec
+Author: Kevin Workman <kevinaworkman@gmail.com>
+Date:   Fri Jan 22 11:58:04 2021 -0800
+
+    Merge pull request #83 from google/dependabot/maven/walkthroughs/week-2-server/examples/text-processor/jetty.version-11.0.0
+    
+    Bump jetty.version from 9.4.31.v20200723 to 11.0.0 in /walkthroughs/week-2-server/examples/text-processor
+
+[33mcommit d3cea5cc153b3cf11fffba89168191b92635292a[m
+Merge: e3f6e52 fb47918
+Author: Kevin Workman <kevinaworkman@gmail.com>
+Date:   Fri Jan 22 11:57:39 2021 -0800
+
+    Merge pull request #81 from google/dependabot/maven/walkthroughs/week-3-libraries/charts/examples/bigfoot-sightings/jetty.version-11.0.0
+    
+    Bump jetty.version from 9.4.31.v20200723 to 11.0.0 in /walkthroughs/week-3-libraries/charts/examples/bigfoot-sightings
+
+[33mcommit 4580dece2c0f7bbcdd1ddb5b86479d8be83612a6[m
+Author: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>
+Date:   Fri Jan 22 19:56:02 2021 +0000
+
+    Bump jetty.version
+    
+    Bumps `jetty.version` from 9.4.31.v20200723 to 11.0.0.
+    
+    Updates `jetty-server` from 9.4.31.v20200723 to 11.0.0
+    - [Release notes](https://github.com/eclipse/jetty.project/releases)
+    - [Commits](https://github.com/eclipse/jetty.project/compare/jetty-9.4.31.v20200723...jetty-11.0.0)
+    
+    Updates `jetty-annotations` from 9.4.31.v20200723 to 11.0.0
+    - [Release notes](https://github.com/eclipse/jetty.project/releases)
+    - [Commits](https://github.com/eclipse/jetty.project/compare/jetty-9.4.31.v20200723...jetty-11.0.0)
+    
+    Signed-off-by: dependabot[bot] <support@github.com>
+
+[33mcommit 52c92b139bd1b76c66d90d70d2777145dbe42b42[m
+Author: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>
+Date:   Fri Jan 22 19:55:53 2021 +0000
+
+    Bump jetty.version
+    
+    Bumps `jetty.version` from 9.4.31.v20200723 to 11.0.0.
+    
+    Updates `jetty-server` from 9.4.31.v20200723 to 11.0.0
+    - [Release notes](https://github.com/eclipse/jetty.project/releases)
+    - [Commits](https://github.com/eclipse/jetty.project/compare/jetty-9.4.31.v20200723...jetty-11.0.0)
+    
+    Updates `jetty-annotations` from 9.4.31.v20200723 to 11.0.0
+    - [Release notes](https://github.com/eclipse/jetty.project/releases)
+    - [Commits](https://github.com/eclipse/jetty.project/compare/jetty-9.4.31.v20200723...jetty-11.0.0)
+    
+    Signed-off-by: dependabot[bot] <support@github.com>
+
+[33mcommit e3f6e523fa60a7dc0a54d6d0654feda6cc11625a[m
+Merge: 49ce9c8 f73893a
+Author: Kevin Workman <kevinaworkman@gmail.com>
+Date:   Fri Jan 22 11:55:20 2021 -0800
+
+    Merge pull request #77 from google/dependabot/maven/walkthroughs/week-3-libraries/charts/examples/hello-world/jetty.version-11.0.0
+    
+    Bump jetty.version from 9.4.31.v20200723 to 11.0.0 in /walkthroughs/week-3-libraries/charts/examples/hello-world
+
+[33mcommit fb4791823b15ca722c3deb095effb91cf3547107[m
+Author: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>
+Date:   Fri Jan 22 19:55:17 2021 +0000
+
+    Bump jetty.version
+    
+    Bumps `jetty.version` from 9.4.31.v20200723 to 11.0.0.
+    
+    Updates `jetty-server` from 9.4.31.v20200723 to 11.0.0
+    - [Release notes](https://github.com/eclipse/jetty.project/releases)
+    - [Commits](https://github.com/eclipse/jetty.project/compare/jetty-9.4.31.v20200723...jetty-11.0.0)
+    
+    Updates `jetty-annotations` from 9.4.31.v20200723 to 11.0.0
+    - [Release notes](https://github.com/eclipse/jetty.project/releases)
+    - [Commits](https://github.com/eclipse/jetty.project/compare/jetty-9.4.31.v20200723...jetty-11.0.0)
+    
+    Signed-off-by: dependabot[bot] <support@github.com>
+
+[33mcommit 49ce9c83bb4b312e05ddfd37e5c51552ec0339bd[m
+Merge: 0bd5f1c 9641411
+Author: Kevin Workman <kevinaworkman@gmail.com>
+Date:   Fri Jan 22 11:54:31 2021 -0800
+
+    Merge pull request #78 from google/dependabot/maven/walkthroughs/week-3-libraries/cloud-storage/examples/hello-world/jetty.version-11.0.0
+    
+    Bump jetty.version from 9.4.31.v20200723 to 11.0.0 in /walkthroughs/week-3-libraries/cloud-storage/examples/hello-world
+
+[33mcommit 0bd5f1c728533981eb052f50a9918c0a485cb011[m
+Merge: ccef57a 2189b57
+Author: Kevin Workman <kevinaworkman@gmail.com>
+Date:   Fri Jan 22 11:54:07 2021 -0800
+
+    Merge pull request #79 from google/dependabot/maven/walkthroughs/week-3-libraries/maps/examples/google-tour/jetty.version-11.0.0
+    
+    Bump jetty.version from 9.4.31.v20200723 to 11.0.0 in /walkthroughs/week-3-libraries/maps/examples/google-tour
+
+[33mcommit ccef57ad51714103727c80798962bb2cb0cb4923[m
+Author: Kevin Workman <kevinaworkman@gmail.com>
+Date:   Thu Jan 21 16:43:23 2021 -0800
+
+    Make paths more specific.
+
+[33mcommit db4d3be74bf4cded540be2364c7adfffa311cbce[m
+Author: Kevin Workman <kevinaworkman@gmail.com>
+Date:   Thu Jan 21 16:11:31 2021 -0800
+
+    Add .gitignore.
+
+[33mcommit f73893aea0e868f3913b4723ac4d25ff0257207a[m
+Author: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>
+Date:   Wed Dec 30 21:48:49 2020 +0000
+
+    Bump jetty.version
+    
+    Bumps `jetty.version` from 9.4.31.v20200723 to 11.0.0.
+    
+    Updates `jetty-server` from 9.4.31.v20200723 to 11.0.0
+    - [Release notes](https://github.com/eclipse/jetty.project/releases)
+    - [Commits](https://github.com/eclipse/jetty.project/compare/jetty-9.4.31.v20200723...jetty-11.0.0)
+    
+    Updates `jetty-annotations` from 9.4.31.v20200723 to 11.0.0
+    - [Release notes](https://github.com/eclipse/jetty.project/releases)
+    - [Commits](https://github.com/eclipse/jetty.project/compare/jetty-9.4.31.v20200723...jetty-11.0.0)
+    
+    Signed-off-by: dependabot[bot] <support@github.com>
+
+[33mcommit 9641411faa8daa9a265415e808b51e4461edf440[m
+Author: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>
+Date:   Wed Dec 30 21:48:49 2020 +0000
+
+    Bump jetty.version
+    
+    Bumps `jetty.version` from 9.4.31.v20200723 to 11.0.0.
+    
+    Updates `jetty-server` from 9.4.31.v20200723 to 11.0.0
+    - [Release notes](https://github.com/eclipse/jetty.project/releases)
+    - [Commits](https://github.com/eclipse/jetty.project/compare/jetty-9.4.31.v20200723...jetty-11.0.0)
+    
+    Updates `jetty-annotations` from 9.4.31.v20200723 to 11.0.0
+    - [Release notes](https://github.com/eclipse/jetty.project/releases)
+    - [Commits](https://github.com/eclipse/jetty.project/compare/jetty-9.4.31.v20200723...jetty-11.0.0)
+    
+    Signed-off-by: dependabot[bot] <support@github.com>
+
+[33mcommit 66ae9f184a4ed85defc3d95b11f2dd9fb4db7e73[m
+Author: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>
+Date:   Wed Dec 30 21:48:48 2020 +0000
+
+    Bump jetty.version in /walkthroughs/week-3-libraries/maps/examples/ufos
+    
+    Bumps `jetty.version` from 9.4.31.v20200723 to 11.0.0.
+    
+    Updates `jetty-server` from 9.4.31.v20200723 to 11.0.0
+    - [Release notes](https://github.com/eclipse/jetty.project/releases)
+    - [Commits](https://github.com/eclipse/jetty.project/compare/jetty-9.4.31.v20200723...jetty-11.0.0)
+    
+    Updates `jetty-annotations` from 9.4.31.v20200723 to 11.0.0
+    - [Release notes](https://github.com/eclipse/jetty.project/releases)
+    - [Commits](https://github.com/eclipse/jetty.project/compare/jetty-9.4.31.v20200723...jetty-11.0.0)
+    
+    Signed-off-by: dependabot[bot] <support@github.com>
+
+[33mcommit 62835d65ec0e28dab3d7d6200f9cd4d2defb9e07[m
+Author: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>
+Date:   Wed Dec 30 21:48:48 2020 +0000
+
+    Bump jetty.version
+    
+    Bumps `jetty.version` from 9.4.31.v20200723 to 11.0.0.
+    
+    Updates `jetty-server` from 9.4.31.v20200723 to 11.0.0
+    - [Release notes](https://github.com/eclipse/jetty.project/releases)
+    - [Commits](https://github.com/eclipse/jetty.project/compare/jetty-9.4.31.v20200723...jetty-11.0.0)
+    
+    Updates `jetty-annotations` from 9.4.31.v20200723 to 11.0.0
+    - [Release notes](https://github.com/eclipse/jetty.project/releases)
+    - [Commits](https://github.com/eclipse/jetty.project/compare/jetty-9.4.31.v20200723...jetty-11.0.0)
+    
+    Signed-off-by: dependabot[bot] <support@github.com>
+
+[33mcommit 090bb26c9bbf6de46f506c42fe13f61303127381[m
+Author: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>
+Date:   Wed Dec 30 21:48:48 2020 +0000
+
+    Bump jetty.version
+    
+    Bumps `jetty.version` from 9.4.31.v20200723 to 11.0.0.
+    
+    Updates `jetty-server` from 9.4.31.v20200723 to 11.0.0
+    - [Release notes](https://github.com/eclipse/jetty.project/releases)
+    - [Commits](https://github.com/eclipse/jetty.project/compare/jetty-9.4.31.v20200723...jetty-11.0.0)
+    
+    Updates `jetty-annotations` from 9.4.31.v20200723 to 11.0.0
+    - [Release notes](https://github.com/eclipse/jetty.project/releases)
+    - [Commits](https://github.com/eclipse/jetty.project/compare/jetty-9.4.31.v20200723...jetty-11.0.0)
+    
+    Signed-off-by: dependabot[bot] <support@github.com>
+
+[33mcommit 3f8aaba36639f8d3bf2e7b2bfeb6c9bf073ee6e5[m
+Author: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>
+Date:   Wed Dec 30 21:48:48 2020 +0000
+
+    Bump jetty.version
+    
+    Bumps `jetty.version` from 9.4.31.v20200723 to 11.0.0.
+    
+    Updates `jetty-server` from 9.4.31.v20200723 to 11.0.0
+    - [Release notes](https://github.com/eclipse/jetty.project/releases)
+    - [Commits](https://github.com/eclipse/jetty.project/compare/jetty-9.4.31.v20200723...jetty-11.0.0)
+    
+    Updates `jetty-annotations` from 9.4.31.v20200723 to 11.0.0
+    - [Release notes](https://github.com/eclipse/jetty.project/releases)
+    - [Commits](https://github.com/eclipse/jetty.project/compare/jetty-9.4.31.v20200723...jetty-11.0.0)
+    
+    Signed-off-by: dependabot[bot] <support@github.com>
+
+[33mcommit 2189b57d6082bd6c7210e137ebae12cee56d6e74[m
+Author: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>
+Date:   Wed Dec 30 21:48:48 2020 +0000
+
+    Bump jetty.version
+    
+    Bumps `jetty.version` from 9.4.31.v20200723 to 11.0.0.
+    
+    Updates `jetty-server` from 9.4.31.v20200723 to 11.0.0
+    - [Release notes](https://github.com/eclipse/jetty.project/releases)
+    - [Commits](https://github.com/eclipse/jetty.project/compare/jetty-9.4.31.v20200723...jetty-11.0.0)
+    
+    Updates `jetty-annotations` from 9.4.31.v20200723 to 11.0.0
+    - [Release notes](https://github.com/eclipse/jetty.project/releases)
+    - [Commits](https://github.com/eclipse/jetty.project/compare/jetty-9.4.31.v20200723...jetty-11.0.0)
+    
+    Signed-off-by: dependabot[bot] <support@github.com>
+
+[33mcommit e9acc362f4a04dd38457d96f354934b5af43509d[m
+Author: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>
+Date:   Wed Dec 30 21:48:47 2020 +0000
+
+    Bump jetty.version
+    
+    Bumps `jetty.version` from 9.4.31.v20200723 to 11.0.0.
+    
+    Updates `jetty-server` from 9.4.31.v20200723 to 11.0.0
+    - [Release notes](https://github.com/eclipse/jetty.project/releases)
+    - [Commits](https://github.com/eclipse/jetty.project/compare/jetty-9.4.31.v20200723...jetty-11.0.0)
+    
+    Updates `jetty-annotations` from 9.4.31.v20200723 to 11.0.0
+    - [Release notes](https://github.com/eclipse/jetty.project/releases)
+    - [Commits](https://github.com/eclipse/jetty.project/compare/jetty-9.4.31.v20200723...jetty-11.0.0)
+    
+    Signed-off-by: dependabot[bot] <support@github.com>
+
+[33mcommit 60f23e6f4fa5a64c3ef623098d7f0cd73dcdeb1b[m
+Author: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>
+Date:   Wed Dec 30 21:48:47 2020 +0000
+
+    Bump jetty.version
+    
+    Bumps `jetty.version` from 9.4.31.v20200723 to 11.0.0.
+    
+    Updates `jetty-server` from 9.4.31.v20200723 to 11.0.0
+    - [Release notes](https://github.com/eclipse/jetty.project/releases)
+    - [Commits](https://github.com/eclipse/jetty.project/compare/jetty-9.4.31.v20200723...jetty-11.0.0)
+    
+    Updates `jetty-annotations` from 9.4.31.v20200723 to 11.0.0
+    - [Release notes](https://github.com/eclipse/jetty.project/releases)
+    - [Commits](https://github.com/eclipse/jetty.project/compare/jetty-9.4.31.v20200723...jetty-11.0.0)
+    
+    Signed-off-by: dependabot[bot] <support@github.com>
+
+[33mcommit dc42e1f3e86ebb11fa7d3f723f046352414404ed[m
+Author: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>
+Date:   Wed Dec 30 21:48:47 2020 +0000
+
+    Bump jetty.version
+    
+    Bumps `jetty.version` from 9.4.31.v20200723 to 11.0.0.
+    
+    Updates `jetty-server` from 9.4.31.v20200723 to 11.0.0
+    - [Release notes](https://github.com/eclipse/jetty.project/releases)
+    - [Commits](https://github.com/eclipse/jetty.project/compare/jetty-9.4.31.v20200723...jetty-11.0.0)
+    
+    Updates `jetty-annotations` from 9.4.31.v20200723 to 11.0.0
+    - [Release notes](https://github.com/eclipse/jetty.project/releases)
+    - [Commits](https://github.com/eclipse/jetty.project/compare/jetty-9.4.31.v20200723...jetty-11.0.0)
+    
+    Signed-off-by: dependabot[bot] <support@github.com>
+
+[33mcommit ecbf99fdfdfd58a1859df7f318090ebe7e2ca8e3[m
+Author: Kevin Workman <kevinaworkman@gmail.com>
+Date:   Wed Dec 30 13:46:48 2020 -0800
+
+    Initial commit of 2021 projects.
+
+[33mcommit 458a30e5b3b05e11cd79f1cf846f76b31c85a36e[m
+Author: Kevin Workman <kevinaworkman@gmail.com>
+Date:   Wed Dec 30 13:39:20 2020 -0800
+
+    Create main branch.
