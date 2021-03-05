@@ -1,6 +1,6 @@
 package com.google.sps.servlets;
 
-import com.google.sps.data.ServerStats;
+import com.google.sps.data.Greetings;
 import com.google.gson.Gson;
 import java.io.IOException;
 import javax.servlet.annotation.WebServlet;
@@ -23,25 +23,19 @@ public final class HelloWorldServlet extends HttpServlet{
     String french = "Bienvenue dans mon portfolio";
     myList.add(french);
 
-    ServerStats serverStats = new ServerStats(english, spanish, german, french);
-    String json = convertToJson(serverStats);
+    Greetings greetings = new Greetings(english, spanish, german, french);
+    String json = convertToJson(greetings);
 
     response.setContentType("application/json");
     response.getWriter().println(json);
   }
 
-    private String convertToJson(ServerStats serverStats){
+    private String convertToJson(Greetings greetings){
        String json = "{";
-      json += "\"ran\": ";
-      json += "\"" + serverStats.getRandom() + "\"";
+      json += "\"randomFunction\": ";
+      json += "\"" + greetings.getRandom() + "\"";
       json += "}";
       return json;
-    }
-
-    private String convertToJsonUsingGson(ServerStats serverStats){
-        Gson gson = new Gson();
-        String json = gson.toJson(serverStats);
-        return json;
     }
 }
 
