@@ -1,7 +1,10 @@
 async function showWelcome() {
   const responseFromServer = await fetch('/hello');
-  const textFromResponse = await responseFromServer.text();
+  const object = await responseFromServer.json();
+  console.log(object);
+  const welcome = object.ran;
 
-  const helloContainer = document.getElementById('hello-container');
-  helloContainer.innerText = textFromResponse;
+  const hello = document.getElementById('hello-container');
+  hello.innerText = welcome;
 }
+
