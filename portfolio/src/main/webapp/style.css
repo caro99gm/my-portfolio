@@ -78,17 +78,42 @@ body {
     padding: 15px 15px;
 }
 
+#forms{
+    position: relative;
+    transform: translateY(-35%);
+}
+
+#forms h3{
+    color: #042B65;
+    font-size: 40px;
+}
+
+#forms textarea{
+    resize: none;
+    width: 300px;
+    height: 30px;
+    background-color: rgba(255,255,255,0.5);
+}
+
 #fact-container{
     color: black;
     background-color: rgba(255,255,255,0.7);
     font-size: 25px;
 }
 
-#intro{
-    margin: 100px;
-    margin-top: 300px;
+#forms{
+    margin: 50px;
+    margin-top:  200px;
     text-align: center;
     position: relative;
+}
+
+#intro{
+    margin: 100px;
+    margin-top: 200px;
+    text-align: center;
+    position: relative;
+    transform: translateY(-40%);
 }
 
 #intro h2{
@@ -119,12 +144,14 @@ body {
     justify-content: center;
     flex-wrap: wrap;
     text-align: center;
+    transform: translateY(-5%);
 }
 
 #pictures h2{
     text-align: center;
     font-size: 40px;
     color: #042B65;
+    transform: translateY(-130%);
 }
 
 #pictures h3{

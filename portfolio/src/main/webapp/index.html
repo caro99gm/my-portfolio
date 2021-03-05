@@ -29,6 +29,35 @@
               <p>Click <a href = "/welcome">here</a> to see the response</p>
         </section>
 
+        <section id = "forms">
+          <form action = "/form-handler" method="POST">
+            <H3>Please leave your information here:</H3>
+            <label>Name: </label>
+            <textarea name="name" placeholder="Name"></textarea>
+            <br/>
+            <label>E-mail: </label>
+            <textarea name="e-mail" placeholder="example@email.com"></textarea>
+            <br/>
+            <label>Company: </label>
+            <textarea name="company" placeholder="Company"></textarea>
+            <br/>
+            <p>Position that you are offering: </p>
+            <label>
+            <input type="checkbox" name="fulltime" value="true">
+            Full-time employee
+            <br/>
+            <input type="checkbox" name="intern" value="true">
+            Internship
+            <br/>
+            <input type="checkbox" name="program" value="true">
+            Other program
+            <br/>
+            </label>
+            <br/>
+            <input type="submit" />
+          </form>
+        </section>
+
         <section id = "intro">
           <h2>About me</h2>
           <p>Hi! I'm a second year student of Computer Science in Instituto 

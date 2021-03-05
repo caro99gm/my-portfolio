@@ -1,6 +1,6 @@
 package com.google.sps.data;
 
-import com.google.sps.data.ServerStats;
+import com.google.sps.data.Greetings;
 import com.google.gson.Gson;
 import java.io.IOException;
 import javax.servlet.annotation.WebServlet;
@@ -23,33 +23,16 @@ public final class MyServlet extends HttpServlet{
     String french = "Bienvenue dans mon portfolio";
     myList.add(french);
 
-    ServerStats serverStats = new ServerStats(english, spanish, german, french);
-    String json = convertToJson(serverStats);
+    Greetings greetings = new Greetings(english, spanish, german, french);
+    String json = convertToJsonUsingGson(greetings);
 
     response.setContentType("application/json");
     response.getWriter().println(json);
   }
 
-    private String convertToJson(ServerStats serverStats){
-      String json = "{";
-      json += "\"english\": ";
-      json += "\"" + serverStats.getEnglish() + "\"";
-      json += ", ";
-      json += "\"spanish\": ";
-      json += "\"" + serverStats.getSpanish() + "\"";
-      json += ", ";
-      json += "\"german\": ";
-      json += "\"" + serverStats.getGerman() + "\"";
-      json += ", ";
-      json += "\"french\": ";
-      json += "\"" + serverStats.getFrench() + "\"";
-      json += "}";
-      return json;
-    }
-
-    private String convertToJsonUsingGson(ServerStats serverStats){
+    private String convertToJsonUsingGson(Greetings greetings){
         Gson gson = new Gson();
-        String json = gson.toJson(serverStats);
+        String json = gson.toJson(greetings);
         return json;
     }
 }

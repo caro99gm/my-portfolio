@@ -39,8 +39,6 @@ public class ServerMain {
     // Handle static resources, e.g. html files.
     webAppContext.addServlet(DefaultServlet.class, "/");
     
-    //webAppContext.addServlet(MyServlet.class, "/welcome");
-
     // Start the server! 🚀
     server.start();
     System.out.println("Server started!");

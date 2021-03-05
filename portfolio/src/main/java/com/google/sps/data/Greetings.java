@@ -2,15 +2,14 @@ package com.google.sps.data;
 
 import java.util.Random;
 
-/** Class containing server statistics. */
-public final class ServerStats {
+public final class Greetings {
 
   private final String english;
   private final String spanish;
   private final String german;
   private final String french;
 
-  public ServerStats(String english, String spanish, String german, String french) {
+  public Greetings(String english, String spanish, String german, String french) {
     this.english = english;
     this.spanish = spanish;
     this.german = german;
