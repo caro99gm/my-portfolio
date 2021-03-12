@@ -1,5 +1,5 @@
 async function translateText() {
-  const text = document.body.innerHTML;
+  const text = document.getElementById('translate-container').innerHTML;
   const language = document.getElementById('language').value;
 
   const params = new URLSearchParams();
@@ -7,7 +7,7 @@ async function translateText() {
   params.append('language', language);
   const responseFromServer = await fetch('/translate', {method: "POST", body: params});
     
-  const result = document.body;
+  const result = document.getElementById('translate-container');
 
   result.innerHTML = await responseFromServer.text();
 }
