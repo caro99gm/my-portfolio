@@ -4,13 +4,24 @@
       <title>My Portfolio</title>
       <link rel = "stylesheet" href = "style.css">
       <script src = "script.js"></script>
-      <script src = "myFetch.js"></script>
+	  	<script src = "myFetch.js"></script>
+	  	<script src = "translate.js"></script>
       <meta charset = "UTF-8">
       <meta name = "viewport" content = "width=device-width, initial-scale=1">
   </head>
 
   <body>
       <main>
+				<div id = "translateTextInfo">
+					<p>&nbsp Click here to see this part in other language 
+          <select id = "language">
+            <option value = "en">English</option>
+            <option value = "es">Español</option>
+            <option value = "de">Deutsch</option>
+            <option value = "fr">Français</option>
+          </select>
+            <button onclick = "translateText();">Translate</button></p>
+				</div>
         <section id = "header">
           <img src = "images/intro.jpeg">
             <div class = "container">
@@ -59,37 +70,53 @@
         </section>
 
         <section id = "intro">
-          <h2>About me</h2>
-          <p>Hi! I'm a second year student of Computer Science in Instituto 
-              Tecnologico y de Estudios Superiores de Monterrey. I'm from 
-              Mexico, more precisely from Guadalajara but I'm studying 
-              in Monterrey city.</p>
-          <h3>A little bit of my background in CS...</h3>
-          <p>I decided to study CS since I was in High School, one of my 
-              biggest influences on this decision were my parents because 
-              they are both computer scientists, so when I was little I always 
-              saw their job and I get interested in that. Due to this, since 
-              middle school, I started to get involved in CS area and also in 
-              some stuff of robotics.</p>
-          <h3>Hobbies</h3>
-          <p>I really enjoy spending time with my friends, also watching 
-              series and movies, I love animated and science fiction! but 
-              also the dramas when I'm in that mood... Besides, I enjoy arts, 
-              like painting or drawing but my favorite technique is with color 
-              pencils. As well I love music, I do not play any instrument and 
-              I do not have a favorite gender, the music I hear is depending 
-              on what I'm doing and my mood at that moment, so it can be very 
-              different.</p>
-          <h3>In more nerdy things...</h3>
-          <p>I love math! since I was in elementary school I get involved in 
-              Kumon (a math program) and my objective was always to end the 
-              program, so I did, but when that happened I just do not have 
-              another thing to dedicate so much time, so that I start working 
-              as an instructor in all levels.</p>
-          <p>Also, I love astronomy, actually, I'm not very involved, but 
-              getting to know more about it is one of my goals. Another thing 
-              that I enjoy a lot is coding, time just runs so fast! I'm 
-              looking to get deeper into the languages that I already know.</p>
+					<!--
+          <h6>Click here to see this part in other language</h6>
+          <select id = "language">
+            <option value = "en">English</option>
+            <option value = "es">Español</option>
+            <option value = "de">Deutsch</option>
+            <option value = "fr">Français</option>
+          </select>
+            <br><br>
+						<button onclick = "translateText();">Translate</button>
+				-->
+            
+            <div id = "translate-container">
+              <h2>About me</h2>
+              <p>Hi! I'm a second year student of Computer Science in Instituto 
+                        Tecnologico y de Estudios Superiores de Monterrey. I'm from 
+                        Mexico, more precisely from Guadalajara but I'm studying 
+                        in Monterrey city.</p>
+              <h3>A little bit of my background in CS...</h3>
+              <p>I decided to study CS since I was in High School, one of my 
+                        biggest influences on this decision were my parents because 
+                        they are both computer scientists, so when I was little I always 
+                        saw their job and I get interested in that. Due to this, since 
+                        middle school, I started to get involved in CS area and also in 
+                        some stuff of robotics.</p>
+              <h3>Hobbies</h3>
+              <p>I really enjoy spending time with my friends, also watching 
+                        series and movies, I love animated and science fiction! but 
+                        also the dramas when I'm in that mood... Besides, I enjoy arts, 
+                        like painting or drawing but my favorite technique is with color 
+                        pencils. As well I love music, I do not play any instrument and 
+                        I do not have a favorite gender, the music I hear is depending 
+                        on what I'm doing and my mood at that moment, so it can be very 
+                        different.</p>
+              <h3>In more nerdy things...</h3>
+              <p>I love math! since I was in elementary school I get involved in 
+                        Kumon (a math program) and my objective was always to end the 
+                        program, so I did, but when that happened I just do not have 
+                        another thing to dedicate so much time, so that I start working 
+                        as an instructor in all levels.</p>
+              <p>Also, I love astronomy, actually, I'm not very involved, but 
+                        getting to know more about it is one of my goals. Another thing 
+                        that I enjoy a lot is coding, time just runs so fast! I'm 
+                        looking to get deeper into the languages that I already know.</p>
+            </div>
+
+            <div id = "result"></div>
         </section>
 
         <section id = "pictures">
